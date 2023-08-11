@@ -32,6 +32,8 @@ spec:
     files:
     - from: darwin-amd64/kbcli
       to: .
+    - from: darwin-amd64/LICENSE
+      to: .
   - selector:
       matchLabels:
         os: darwin
@@ -41,6 +43,8 @@ spec:
     bin: kbcli
     files:
     - from: darwin-arm64/kbcli
+      to: .
+    - from: darwin-arm64/LICENSE
       to: .
   - selector:
       matchLabels:
@@ -52,6 +56,8 @@ spec:
     files:
     - from: linux-amd64/kbcli
       to: .
+    - from: linux-amd64/LICENSE
+      to: .
   - selector:
       matchLabels:
         os: linux
@@ -62,6 +68,8 @@ spec:
     files:
     - from: linux-arm64/kbcli
       to: .
+    - from: linux-arm64/LICENSE
+      to: .
   - selector:
       matchLabels:
         os: windows
@@ -71,6 +79,8 @@ spec:
     bin: kbcli.exe
     files:
     - from: windows-amd64/kbcli.exe
+      to: .
+    - from: windows-amd64/LICENSE
       to: .
 """
 
