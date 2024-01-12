@@ -5,7 +5,7 @@ metadata:
 spec:
   homepage: https://github.com/apecloud/kbcli
   shortDescription: A Command Line Interface for KubeBlocks
-  version: v0.7.2
+  version: v0.8.0
   description: |
     KubeBlocks is an open-source, cloud-native data infrastructure 
     designed to help application developers and platform engineers 
@@ -18,8 +18,8 @@ spec:
       matchLabels:
         os: darwin
         arch: amd64
-    uri: https://github.com/apecloud/kbcli/releases/download/v0.7.2/kbcli-darwin-amd64-v0.7.2.tar.gz
-    sha256: 5262e3280d4387bf56f8b011fdaab975d23d35808407647436c407f9930d0230
+    uri: https://github.com/apecloud/kbcli/releases/download/v0.8.0/kbcli-darwin-amd64-v0.8.0.tar.gz
+    sha256: b9cc46b1b55062d8540594e9433cd416d8fa12f77b480af64b75d5844fef2ff9
     bin: kbcli
     files:
     - from: darwin-amd64/kbcli
@@ -30,8 +30,8 @@ spec:
       matchLabels:
         os: darwin
         arch: arm64
-    uri: https://github.com/apecloud/kbcli/releases/download/v0.7.2/kbcli-darwin-arm64-v0.7.2.tar.gz
-    sha256: 91ab8d248bf065b40dd0f8899174ea5c9752173d0c802b81278e250527dd001b
+    uri: https://github.com/apecloud/kbcli/releases/download/v0.8.0/kbcli-darwin-arm64-v0.8.0.tar.gz
+    sha256: f776d9804b50225bf036c3707d33a2b608a651ddddf5157160ae3e956b95b8eb
     bin: kbcli
     files:
     - from: darwin-arm64/kbcli
@@ -42,8 +42,8 @@ spec:
       matchLabels:
         os: linux
         arch: amd64
-    uri: https://github.com/apecloud/kbcli/releases/download/v0.7.2/kbcli-linux-amd64-v0.7.2.tar.gz
-    sha256: b11ace8d151f693065582ecb767fdb26fd1e80a1435759b1f1976c9cbd8b9cb1
+    uri: https://github.com/apecloud/kbcli/releases/download/v0.8.0/kbcli-linux-amd64-v0.8.0.tar.gz
+    sha256: b54865bc34c066aa1ee29923b7eb837601d285330eb4e53a7da341315a790e52
     bin: kbcli
     files:
     - from: linux-amd64/kbcli
@@ -54,8 +54,8 @@ spec:
       matchLabels:
         os: linux
         arch: arm64
-    uri: https://github.com/apecloud/kbcli/releases/download/v0.7.2/kbcli-linux-arm64-v0.7.2.tar.gz
-    sha256: 92709be4da64b0b1e9b102517663fc5dce45db13119f3bd265c63d7d900ccd5a
+    uri: https://github.com/apecloud/kbcli/releases/download/v0.8.0/kbcli-linux-arm64-v0.8.0.tar.gz
+    sha256: d5d26f051ce3e4fc5d6c4368177c4d45b37ffeb75d64452b120338070a099734
     bin: kbcli
     files:
     - from: linux-arm64/kbcli
@@ -66,8 +66,8 @@ spec:
       matchLabels:
         os: windows
         arch: amd64
-    uri: https://github.com/apecloud/kbcli/releases/download/v0.7.2/kbcli-windows-amd64-v0.7.2.zip
-    sha256: 6c843bccb29811375a846477bb92d48d3927f83e9ee372fce82a1aba4ea00fba
+    uri: https://github.com/apecloud/kbcli/releases/download/v0.8.0/kbcli-windows-amd64-v0.8.0.zip
+    sha256: d593d31675a5157d474de47762be0f112834ffaa5b285b4a890fe2615eab9b6e
     bin: kbcli.exe
     files:
     - from: windows-amd64/kbcli.exe
